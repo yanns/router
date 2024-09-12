@@ -1,3 +1,6 @@
 [alias]
 xtask = "run --package xtask --"
 router = "run --package xtask -- router"
+
+[env]
+JEMALLOC_SYS_WITH_LG_PAGE = "16"
